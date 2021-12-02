@@ -1,0 +1,26 @@
+
+body{
+    background: #c4bcbc;
+}
+.btn-outline{
+    /* width: 80px;
+height:33px; */
+color:#fff;
+border-radius:5px;
+/* background: #1B5BF7; */
+border-radius: 8px;
+border: none;
+color: #000;
+}
+button{
+    margin-right: 50px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
