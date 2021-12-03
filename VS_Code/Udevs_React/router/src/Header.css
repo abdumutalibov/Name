@@ -1,6 +1,28 @@
 li{
-    background: chartreuse;
+    /* background: chartreuse; */
     color: red;
-    width: 100px;
-    height: 100px;
+     width: 600px;
+    /* height: 100px; */ 
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    justify-content: end;
+}
+ul{
+    display: flex;
+    /* background: chartreuse; */
+    flex-direction: column;
+    color: red;
+    width: 400px;
+    
+    align-items: flex-end;
+    text-align: end;
+    justify-content: end;
+}
+.text{
+    margin-right: 30px;
+}
+.top{
+    margin-top: 10px;
+    display: flex;
 }
