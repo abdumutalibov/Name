@@ -1,0 +1,71 @@
+.blog-item__container {
+  margin-bottom: 160px;
+  display: flex;
+}
+.blog-item__user {
+  flex: 3;
+  position: relative;
+  top: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog-item__content {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 8;
+}
+.blog-item__famous {
+  margin-left: 27px;
+  flex: 4;
+}
+.blog-item__famous .card {
+  flex-direction: row;
+  margin-bottom: 28px;
+}
+.blog-item__famous .card .card-img-top {
+  margin: 0;
+}
+.blog-item__famous .card-body {
+  margin-left: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image-owner {
+  margin: 16px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2d2d2d;
+}
+.user-image {
+  width: 99px;
+  height: 99px;
+  margin-bottom: 14px;
+}
+.user-name {
+  margin-bottom: 19px;
+}
+.user-buttons {
+  display: flex;
+}
+.btn.btn-follow {
+  padding: 8px 36px;
+  background: #1b5bf7;
+  border-radius: 16px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+.btn.btn-saved {
+  margin-left: 18px;
+  color: #fff;
+  background: #1b5bf7;
+  border-radius: 8px;
+}

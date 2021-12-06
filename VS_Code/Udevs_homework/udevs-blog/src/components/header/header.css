@@ -1,0 +1,10 @@
+.container {
+  max-width: 1440px;
+  padding: 0 30px;
+}
+.header {
+  margin-bottom: 64px;
+}
+.header .nav-item:not(:last-child) {
+  margin-right: 40px;
+}

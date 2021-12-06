@@ -1,0 +1,57 @@
+.card {
+    border: none;
+    text-decoration: none;
+  }
+  .card-img-top {
+    margin-bottom: 24px;
+    border-radius: 8px;
+  }
+  .card-body {
+    padding: 0;
+  }
+  .card-info {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .card-date,
+  .card-number {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #aebec9;
+  }
+  .card-number {
+    margin-left: 6px;
+  }
+  .card-date {
+    margin-right: 17px;
+    display: flex;
+    align-items: center;
+  }
+  .card-date::after {
+    content: "";
+    width: 1px;
+    height: 16px;
+    margin-left: 16px;
+    background: #aebec9;
+  }
+  .card-title {
+    margin-bottom: 0;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    font-feature-settings: "pnum" on, "lnum" on;
+    color: #000000;
+  }
+  .card-info svg {
+    color: #aebec9;
+  }
+  

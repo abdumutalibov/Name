@@ -10,7 +10,7 @@ import girl from './img/girl.svg'
 import woman from './img/woman.svg'
 import udevs1 from './img/udevs1.svg'
 import { Box1, Box2, MainLower, Ros, Text1, Text2, Text3 } from './Lower/Lower';
-
+import Axios from './Axios/axios';
 export default function index() {
     return (
         <div>
@@ -20,7 +20,7 @@ export default function index() {
     <Udevs>
         <a href="https://udevs.io/"><img className="str" src={udevs}></img></a>
         </Udevs>
-        
+      
         
 <Exit>
 {/* <button className="btn btn-outline btn-outline-danger btn-sm" > <i className="fa fa-bell-o" /></button> */}
@@ -42,29 +42,10 @@ export default function index() {
 <a href="https://udevs.io/"><button type="submit" className="btn btn-outline btn-outline-primary btn-sm" >Научпоп</button></a>
 
 </TextAll>
-<ul>
 
-        <Images>
-       <a href="https://udevs.io/"> <Textss text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={smoking}/></a>     
-            <Textss  text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={girl}/>
-            <Textss  text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={woman}/>
-            <Textss  text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 |   365 '} icon={smoking}/>
-            </Images>    
-           
-            <Images>
-       <a href="https://udevs.io/"> <Textss text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={smoking}/></a>     
-       <a href="https://udevs.io/"> <Textss text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={smoking}/></a>     
-       <a href="https://udevs.io/"> <Textss text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={smoking}/></a>     
-            <Textss  text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 |   365 '} icon={girl}/>
-            </Images>    
-           
-            <Images>
-           <a href="https://udevs.io/"><Textss  text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={girl}/></a> 
-           <a href="https://udevs.io/"> <Textss text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={smoking}/></a>   
-          <a href="https://udevs.io/"><Textss  text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 | 365 '} icon={smoking}/></a>      
-          <a href="https://udevs.io/"> <Textss  text="ВОЗ: молодые жители Европы стали меньше курить, но пристрастились ....." numbers={'18:26 11.01.2021 |   365 '} icon={smoking}/></a>    
-            </Images>    
-</ul>
+
+        
+
            
         <MainLower>
             <Box1>
